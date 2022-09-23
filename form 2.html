@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<script type="text/javascript" src="multiselect-dropdown.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+	<style >
+		body{
+			font-family: 'Roboto Condensed', sans-serif;
+
+		}
+		h1 {
+			color: blue;background-color: yellowgreen;
+		}
+		label{
+			color: wheat;background-color: black;
+		}
+	</style>
+</head>
+<body>
+		<center><form action="#" method="GET">
+		<h1>Addmission Form </h1>
+		<label >name</label>:
+		&emsp;<input type="text" name="name" placeholder="john" >
+		<br>
+		<br>
+		<label>email</label>:
+				&emsp;<input type="text" name="email"placeholder="john@gmail.com">
+			<br>
+			<br>
+			<label>Section</label>:
+			  &emsp;<input type="text" name="Section">
+			<br>			
+			<br>
+			<label>Branch</<label>:
+			  &emsp;<input type="text" name="Branch">
+			<br><br>
+			<label>State</label>:
+			   &emsp;&emsp;<input type="text" name="state"> <br><br> <label>city </label>:    &emsp; <input type="text" name="city"><br><br>
+			<label>mobail no</label>:
+			<input type="number" name="number" min=""><br><br>
+
+			<label>Gender</label>:
+			<input type="radio" name="Gender" checked="" value="male"> male
+			<input type="radio" name="Gender" value="female">female
+			<input type="radio" name="Gender" value="other">other
+			<br><br>
+			<label>Are you eligible for addmission</label>:
+			<input type="checkbox" name=""><br><br>
+
+			<label>Submit Photo</label>
+			<input type="file" name="" accept=".png,.pdf"><br><br>
+		
+			<label>date of birth</label> :
+			<input type="date" name=""> 
+			<br><br>
+			
+			<label>Write about yourself</label>:
+		<br>	
+		<textarea name="text" cols="20" rows="10"></textarea>
+		<br><br>
+		<label>Gender</label>:
+		&emsp;<select name="s1">
+				<option value="male">
+					Male
+				</option>
+				<option>
+					Female
+				</option>
+
+
+			</select>
+			<br><br>
+			<label  for="course">course</label> :
+			&emsp;<select   name="multiselect-dropdown" >
+
+
+
+
+								
+				<option value="1">c,c++</option>
+
+				<option value="2">Diploma course</option>
+
+				<option value="3">python</option>
+
+				<option value="4">java </option>
+			
+			</select>
+			<br>
+			<br>
+
+			<input type="Submit" value="Submit Now">
+
+			<input type="Reset" value="Reset Now">
+
+
+			</form></center>
+
+</body>
+</html>
